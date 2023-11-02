@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/latitudeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/longitudeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/dateTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date and Time"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/numVotersEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Voters"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/numVotesExpectedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number of Votes Expected"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/feedbackTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Feedback Type (e.g., Positive, Negative)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/supportingPartyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Supporting Party"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/supportNatureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Support Nature or Issues Raised"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/additionalDetailsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Additional Details"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="Back" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClick"
+        android:text="View Analytics" />
+
+</LinearLayout>
